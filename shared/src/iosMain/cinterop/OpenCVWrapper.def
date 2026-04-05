@@ -2,4 +2,3 @@ language = Objective-C
 package = OpenCVWrapper
 headers = OpenCVWrapper.h
 headerFilter = OpenCVWrapper.h
-compilerOpts = -I/Users/0x67/Downloads/kmm-opencv/iosApp/OpenCVWrapper

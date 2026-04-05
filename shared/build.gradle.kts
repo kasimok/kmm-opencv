@@ -24,6 +24,7 @@ kotlin {
         target.compilations.getByName("main") {
             val OpenCVWrapper by cinterops.creating {
                 defFile("src/iosMain/cinterop/OpenCVWrapper.def")
+                includeDirs("${project.rootDir}/iosApp/OpenCVWrapper")
             }
         }
     }
