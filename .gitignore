@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Kotlin/Native
+.konan/
+
+# Android
+androidApp/build/
+shared/build/
+
+# iOS
+iosApp/Pods/
+iosApp/Podfile.lock
+iosApp/*.xcworkspace/xcuserdata/
+iosApp/*.xcodeproj/xcuserdata/
+iosApp/*.xcworkspace/xcshareddata/swiftpm/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+
+# IDE
+.idea/
+*.iml
+.DS_Store
